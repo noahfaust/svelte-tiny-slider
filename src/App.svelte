@@ -65,6 +65,11 @@
             title: 'Order 12',
             status: 'In Progress',
         },
+        {
+            id: uuid++,
+            title: 'Order 13',
+            status: 'In Progress',
+        },
     ]
 </script>
 
