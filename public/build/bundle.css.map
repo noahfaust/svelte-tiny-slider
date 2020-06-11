@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../CarouselItem.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\n    export let title\n    export let status\n\n</script>\n\n<div>\n    <h1>\n        {title}\n    </h1>\n    <p>\n        Status: {status}\n    </p>\n</div>\n\n<style>\n\n    div {\n        border: 1px solid;\n        opacity: 1;\n        padding: 1rem 4rem;\n        text-align: center;\n    }\n\n</style>\n\n"
+  ],
+  "names": [],
+  "mappings": "AAkBI,GAAG,cAAC,CAAC,AACD,MAAM,CAAE,GAAG,CAAC,KAAK,CACjB,OAAO,CAAE,CAAC,CACV,OAAO,CAAE,IAAI,CAAC,IAAI,CAClB,UAAU,CAAE,MAAM,AACtB,CAAC"
+}
